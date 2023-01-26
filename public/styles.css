@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Racing+Sans+One&display=swap');
+
+
+body {
+  background-color: #FAF7F0;
+}
+
+.navbar-brand {
+  font-family:'Racing Sans One';
+  font-size: 40px;
+  color: #256D85;
+}
+
+li {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.body2 {
+  font-family: 'Montserrat';
+}
+
+footer {
+  font-family: 'Montserrat';
+}
+
+.form-label, .form-check-label{
+  font-family: 'Montserrat';
+}
+
+.role {
+  position: relative;
+  left: 6pc;
+  border: none !important;
+  outline: none !important;
+}
+
+.btn-secondary {
+  border-color: #256D85 !important;
+}
+
+.admin_tabs {
+  margin: 10px;
+}
+
+.form_icon{
+  position: relative;
+  bottom: 19px;
+}
+
+

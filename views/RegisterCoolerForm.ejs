@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../public/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/android-chrome-192x192.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <title>Register Cooler</title>
+</head>
+<body>
+
+    <a style="text-decoration: none; color: white;" href="/admin_panel"><button type="button" class="btn btn-primary btn-lg" style=" font-family:Montserrat ; position: relative; top: 45px; left: 3pc;"><i class="fa-solid fa-arrow-left" style="margin-right:10px ;"></i>Admin Home</button></a> 
+
+    <h1 style="font-family: Racing Sans One !important; color: #45526e; font-size: 40px; text-align: center; margin-bottom: -9px; margin-top: -8px !important;">Register New Cooler</h1>
+
+
+<div style="padding:50px;">
+    <section class="vh-50">
+        <div class="container h-50">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+              <div class="card text-black" style="border-radius: 25px;">
+                <div class="card-body p-md-5">
+                  <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+      
+      
+                      <form class="mx-1 mx-md-4" action="/RegisterCoolerForm" method="POST">
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="coolerMake" class="form-control" name="coolerMake" />
+                            <label class="form-label" for="make">Cooler Make</label>
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="coolerModel" class="form-control" name="coolerModel" />
+                            <label class="form-label" for="model">Cooler Model</label>
+                          </div>
+                        </div>
+      
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="coolerCapacity" class="form-control" name="coolerCapacity" />
+                            <label class="form-label" for="capacity">Cooler Capacity</label>
+                          </div>
+                        </div>
+
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                              <input type="text" id="coolerManu" class="form-control" name="coolerManu" />
+                              <label class="form-label" for="coolerManu">Cooler Manufacturer</label>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                              <input type="text" id="coolerAreaId" class="form-control" name="coolerAreaId" />
+                              <label class="form-label" for="areaID">Cooler Area ID</label>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row align-items-center mb-4">
+                            <div class="form-outline flex-fill mb-0">
+                              <input type="text" id="coolerStreet" class="form-control" name="coolerStreet" />
+                              <label class="form-label" for="street">Cooler Street</label>
+                            </div>
+                          </div>
+      
+      
+                        <div class=" form-label d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <button type="submit" class="btn btn-primary btn-lg">Register Cooler</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                    <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+      
+                      <img src="../images/11024.jpg"
+                        class="img-fluid" alt="Sample image">
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+
+
+</body>
+</html>
